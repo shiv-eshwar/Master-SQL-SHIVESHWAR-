@@ -26,12 +26,34 @@ Use each week in the same rhythm:
 ## Repo Map
 
 - `setup/`: local PostgreSQL workflow, seeding, and schema docs
-- `week_01_foundations/` ... `week_12_interview_mastery/`: the main course
-- `patterns/`: canonical hard-problem patterns
+- `database_theory/`: complete database theory from fundamentals to distributed systems
+- `week_01_foundations/` ... `week_12_interview_mastery/`: the SQL course
+- `nosql/`: MongoDB guide from basics to advanced with schema design patterns
+- `patterns/`: canonical SQL interview patterns
 - `cheatsheets/`: compressed reference notes
 - `problems/`: hard-problem index and worked solutions by pattern
 - `mocks/`: timed interview drills
 - `progress.md`: study tracker and spaced-repetition prompts
+
+## Database Theory Track
+
+Read these in order alongside the weekly SQL curriculum:
+
+| File | Topics |
+|------|--------|
+| `database_theory/01_fundamentals.md` | What databases solve, data models, DBMS architecture |
+| `database_theory/02_relational_model.md` | Codd's rules, relational algebra, all key types |
+| `database_theory/03_er_modeling.md` | ER diagrams, cardinality, converting to tables |
+| `database_theory/04_normalization.md` | 1NF through BCNF with examples and anomalies |
+| `database_theory/05_acid_transactions.md` | ACID, isolation levels, MVCC, locking |
+| `database_theory/06_storage_and_indexes.md` | Pages, B-tree, GIN, partial, covering, SARGability |
+| `database_theory/07_query_optimization.md` | Planner, cost model, join algorithms, EXPLAIN |
+| `database_theory/08_distributed_databases.md` | CAP, replication, sharding, 2PC, Saga |
+| `database_theory/09_design_process.md` | Full design methodology and anti-patterns |
+
+## NoSQL Track
+
+- `nosql/mongodb.md`: MongoDB from document model and CRUD through aggregation pipelines, indexes, replication, and schema design patterns. Includes PostgreSQL vs MongoDB comparison guide.
 
 ## Suggested 12-Week Path
 
